@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    background-color:  $black;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;
+    min-height: 740px;
+    position: relative;
+    #video-background {
+    /*  making the video fullscreen  */
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        top: 70px;
+    }
+    .grad{
+        background: linear-gradient(to top, white, #27A9D5 5%, #2086b6);
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    article {
+    /*  just a fancy border  */
+      background: linear-gradient(to top, white,#27A9D5 4%, #2086b6);
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .header-content{
+        position: relative;
+        // background: linear-gradient(to top, white,#27A9D5 10%, #2086b6);
+        min-height: 740px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: -moz-available;          /* WebKit-based browsers will ignore this. */
+        height: -webkit-fill-available;
+        .logo {
+            background-image: url("../images/logo_3x.png");
+            background-size: 227px;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 40px;
+            margin-top: 100px;
+        }
+        .slesh-white {
+            background-image: url("../images/invalid-name@3x.png");
+            background-repeat: no-repeat;
+            background-size: 370px;
+            background-position: center;
+            height: 14px;
+            margin-top: 30px;
+        }
+        .slaider{
+            position: relative;
+        }
+        .mySlides{
+            color: white;
+            display: none;
+            // &:first-child{
+            //     display: block;
+            // }
+            // &:first-of-type{
+            //     display: block;
+            // }
+            .header-main-title {
+                font-size: 42.6px;
+                line-height: 1.16;
+                letter-spacing: 1.5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Consolas;
+                height: 200px;
+            }
+            .header-main-text{
+                font-size: 23.7px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                position: relative;
+                height: 60px;
+            }
+        }
+        .header-icon{
+            position: relative;
+            height: 200px;
+            background-image: url("../images/talk-icon.svg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 5%;
+        }
+    }
+}
+@keyframes effect {
+    from {
+        transform: scale(0)
+    }
+    50% {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(0)
+    }
+}
+.animation.start div {
+    animation-name: effect;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    width:  70px;
+    height: 70px;
+    background-color: $white;
+    position: absolute;
+    transform: scale(0);
+}
+.animation.start div:nth-child(1) {
+    animation-delay: 90ms;
+    top: -22px;
+    left: 5%;
+}
+.animation.start div:nth-child(2) {
+    animation-delay: 30ms;
+    top: -35px;
+    left: 23%;
+}
+.animation.start div:nth-child(3) {
+    animation-delay: 70ms;
+    top: 40px;
+    left: 40%;
+}
+.animation.start div:nth-child(4) {
+    animation-delay: 140ms;
+    top: -20px;
+    left: 58%;
+}
+.animation.start div:nth-child(5) {
+    animation-delay: 170ms;
+    top: 60px;
+    left: 85%;
+}

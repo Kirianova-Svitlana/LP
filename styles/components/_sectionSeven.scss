@@ -1,0 +1,118 @@
+.section-seven{
+    background-color: $white;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-image: url(../images/vector-smart-object@3x.png);
+    background-repeat: repeat-x;
+    background-position: 26px 296px;
+    background-size: 119%;
+    .section-seven-wrapper{
+        .section-one-title {
+            padding-top: 7%;
+            font-family: Consolas;
+            font-size: $size-sm-medium;
+            text-transform: uppercase;
+            .section-one-main-title {
+                font-family: Roboto;
+                font-size: 50.4px;
+                font-weight: bold;
+                line-height: 0.97;
+                position: relative;
+                top: -7px;
+                letter-spacing: -0.5px;
+            }
+            .number-title {
+                position: relative;
+                top: -8px;
+            }
+            .slesh-sm {
+                position: relative;
+                top: -7px;;
+            }
+        }
+        .text {
+            font-size: $size-normal;
+            font-weight: $style-semi-bold;
+            line-height: 1.85;
+            text-align: center;
+            margin-top: 38px;
+        }
+        .button-more-info {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 3%;
+            button {
+                height: 50px;
+                width: 300px;
+                background-color: $yellow;
+                color: $white;
+                border: none;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.85;
+                outline: none;
+                font-family: Roboto;
+                border-radius: 3px;
+                &:hover{
+                    opacity: 0.8;
+                }
+                &:active{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .logo-coloring {
+            margin-top: 137px;
+            margin-bottom: 57px;
+            background-image: url(../images/logo-copy@3x.png);
+            background-repeat: no-repeat;
+            background-size: 215px;
+            background-position: center;
+            height: 40px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: Helvetica;
+            font-size: $size-normal-light;
+            letter-spacing: 0.3px;
+            text-align: center;
+            margin-top: 3%;
+            .menu-item {
+                border-right: 1px solid $text-color-light-grey;
+                padding-right: 20px;
+                padding-left: 20px;
+                &:last-child {
+                    border: none;
+                }
+                &:hover{
+                    color: $text-color-light-blue;
+                }
+            }
+        }
+        .slesh{
+            background-size: 34%;
+            background-position: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .adress{
+            font-family: Helvetica;
+            font-size: $size-normal-light;
+            letter-spacing: 0.3px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+    }
+    .wave{
+        background-image: url(../images/soundwave.svg);
+        height: 148px;
+        background-position: 0px 15px;
+        background-repeat: repeat-x;
+        height: 117px;
+        z-index: 0;
+    }
+}

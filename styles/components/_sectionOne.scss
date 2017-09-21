@@ -1,0 +1,103 @@
+.section-one {
+    background-color: $white;
+    height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;
+    position: relative;
+    padding-top: 62px;
+    text-align: center;
+    min-height: 720px;
+    .wave {
+        background-image: url(../images/soundwave.svg);
+        background-repeat: repeat-x;
+        position: absolute;
+        height: 235px;
+        width: 100%;
+        top: -14%;
+    }
+    .section-one-title {
+        margin-top: 7%;
+        font-family: Consolas;
+        font-size: $size-sm-medium;
+        text-transform: uppercase;
+        .section-one-main-title {
+            font-family: Roboto;
+            font-size: 50.4px;
+            font-weight: bold;
+            line-height: 0.97;
+            position: relative;
+            top: -9px;
+        }
+        .number-title {
+            position: relative;
+            top: -8px;
+        }
+        .title-slesh {
+            position: relative;
+            top: -10px;
+        }
+    }
+    .section-one-wrapper {
+        max-width: 1366px;
+        margin-right: auto;
+        margin-left: auto;
+        .section-one-text {
+            font-size: 15px;;
+            font-weight: 700;
+            line-height: 1.85;
+            margin-top: 30px;
+            letter-spacing: -0.4px;
+        }
+        .section-one-icons {
+            margin-top: 63px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .icon-transcription {
+                .icon-pen {
+                    background-image: url(../images/icon_01.svg);
+                    background-repeat: no-repeat;
+                    height: 50px;
+                    background-position: center;
+                }
+            }
+            .icon {
+                width: 28%;
+                .icon-title {
+                    text-transform: uppercase;
+                    color: $text-color-light-blue;
+                    font-size: 24px;
+                    font-weight: bold;
+                    line-height: 2.17;
+                    margin-bottom: 23px;
+                }
+                .icon-text {
+                    width: 67%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: $size-normal;
+                    font-weight: 700;
+                    line-height: 1.71;
+                }
+            }
+            .icon-keyword {
+                position:relative;
+                .icon-eye {
+                    background-image: url(../images/icon_02.svg);
+                    background-repeat: no-repeat;
+                    height: 50px;
+                    background-position: center;
+                }
+            }
+            .icon-complex {
+                @extend .icon-keyword;
+                .icon-circle-line{
+                    background-image: url(../images/icon_03.svg);
+                    background-repeat: no-repeat;
+                    height: 50px;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}

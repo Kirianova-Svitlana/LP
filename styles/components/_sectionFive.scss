@@ -1,0 +1,54 @@
+.section-five {
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    .section-five-wrapper{
+        .section-one-title {
+            padding-top: 6%;
+            font-family: Consolas;
+            font-size: $size-sm-medium;
+            text-transform: uppercase;
+            .section-one-main-title {
+                font-family: Roboto;
+                font-size: 50.4px;
+                font-weight: bold;
+                line-height: 0.97;
+                position: relative;
+                top: -7px;;
+            }
+            .number-title {
+                position: relative;
+                top: -8px;
+            }
+            .slesh-sm {
+                font-weight: bold;
+                font-size: $size-normal;
+                font-family: Roboto;
+                color: $text-color-light-blue;
+                position: relative;
+                top: -8px;
+            }
+        }
+        .picture{
+            background-image: url(../images/quote@3x.png);
+            background-repeat: no-repeat;
+            background-size: 1090px;
+            background-position: top;
+            margin-top: 3%;
+            height: 580px;
+        }
+        .date{
+            text-align: end;
+            font-size: $size-lg-normal;
+            font-weight: $style-semi-bold;
+            font-style: italic;
+            line-height: 1.11;
+            font-family: sans-serif;
+            color: $grey;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            padding-right: 100px;
+        }
+    }
+}

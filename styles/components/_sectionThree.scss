@@ -1,0 +1,115 @@
+.section-three {
+    text-align: center;
+    height: auto;
+    background-color: $white;
+    position: relative;
+    height: 750px;
+    .wave{
+    	position: relative;
+	    background-image: url(../images/soundwave.svg);
+	    background-repeat: repeat-x;
+	    background-position: 0px -115px;
+    	height: 115px;
+    }
+    .section-one-title {
+        margin-top: 63px;
+        font-family: Consolas;
+        font-size: $size-sm-medium;
+        text-transform: uppercase;
+        .section-one-main-title {
+            font-family: Roboto;
+            font-size: 50.4px;
+            font-weight: bold;
+            line-height: 0.97;
+            position: relative;
+            top: -9px;
+        }
+        .number-title {
+            position: relative;
+            top: -8px;
+        }
+        .slesh-sm {
+            position: relative;
+            top: 14px;
+        }
+    }
+    .section-three-colomn {
+    	max-width: 1366px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	padding-top: 48px;
+    	.colomn {
+    		width: 50%;
+    		padding-top: 1%;
+    		.title {
+    			display: flex;
+    			flex-direction: row;
+    			font-size: $size-large;
+				font-weight: bold;
+				line-height: 2.17;
+                .icon-false{
+                    background-image: url(../images/icon_04.svg);
+                    background-repeat: no-repeat;
+                    height: 50px;
+                    width: 24px;
+                    position: relative;
+                    top: 14px;
+                    margin-left: 10px;
+                }
+                .icon-true{
+                    background-image: url(../images/icon_05.svg);
+                    @extend .icon-false;
+                }
+				div{
+					img{
+						margin-left: 10px;
+						position: relative;
+						top: 2px;
+					}
+				}
+    		}
+    		ul {
+                list-style: none;
+    			li{
+    				font-size: 14px;
+					font-weight: 600;
+					line-height: 1.71
+    			}
+    		}
+    	}
+    	.section-three-colomn-one {
+    		text-align: right;
+    		border-right: 1px solid $black;
+    		padding-right: 46px;
+    		color: $red;
+    		.title {
+    			justify-content: flex-end;
+    		}
+    		.tegs {
+    			display: flex;
+    			justify-content: flex-end;
+                position: relative;
+                top: 5px;
+                left: 5px;
+    			ul{
+    				list-style: none;
+    			}
+    		}
+    	}
+    	.section-three-colomn-two {
+    		padding-left: 46px;
+    		color: $green;
+    		ul {
+                list-style: none;
+    			text-align: left;
+                li{
+                    position: relative;
+                    left: -37px;
+                }
+    		}
+    	}
+    }
+}

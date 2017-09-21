@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="708.5" height="429.5">
+    <text x="677" y="340" fill="#939598" font-family="Roboto" font-size="16">
+        <tspan dy="-328">95%</tspan><tspan x="677" dy="5.125em">75%</tspan><tspan x="677" dy="5.125em">55%</tspan><tspan x="677" dy="5.125em">35%</tspan><tspan x="677" dy="5.125em">15%</tspan>
+    </text>
+    <path fill="#FFF" fill-rule="evenodd" d="M665 5v1H0V5h665zM665 87v1H0v-1h665zM665 170v1H0v-1h665zM665 252v1H0v-1h665zM665 334v1H0v-1h665z"/>
+    <path fill="none" stroke="#CD1C00" stroke-dasharray="12, 6" stroke-width="3" d="M178 141h96v193h-96V141z"/>
+    <path fill="#CD1C00" fill-rule="evenodd" d="M178 319h96v15h-96v-15z"/>
+    <text x="183" y="428" fill="#5D5D5D" font-family="Roboto" font-size="16">
+        <tspan dy="-60">Manual </tspan><tspan x="183" dy="1.25em">Trial &amp; Error</tspan><tspan x="183" dy="1.25em">Keyword</tspan><tspan x="183" dy="1.25em">20 Rules</tspan>
+    </text>
+    <text x="203" y="310" fill="#CD1C00" font-family="Roboto" font-size="24">
+        ??%
+    </text>
+    <path fill="#FFC900" fill-rule="evenodd" d="M350 77h96v257h-96V77z"/>
+    <text x="366" y="428" fill="#5D5D5D" font-family="Roboto" font-size="16">
+        <tspan dy="-60">BEST</tspan><tspan x="366" dy="1.25em">Possible</tspan><tspan x="366" dy="1.25em">Keyword</tspan><tspan x="366" dy="1.25em">20 Rules</tspan>
+    </text>
+    <text x="375" y="68" fill="#FFC900" font-family="Roboto" font-size="24">
+        77%
+    </text>
+    <path fill="#FFC900" fill-rule="evenodd" d="M522 65h96v269h-96V65z"/>
+    <text x="534" y="428" fill="#5D5D5D" font-family="Roboto" font-size="16">
+        <tspan dy="-60">Best</tspan><tspan x="534" dy="1.25em">Possible</tspan><tspan x="534" dy="1.25em">Keyword</tspan><tspan x="534" dy="1.25em">100 Rules</tspan>
+    </text>
+    <text x="547" y="56" fill="#FFC900" font-family="Roboto" font-size="24">
+        78%
+    </text>
+</svg>
