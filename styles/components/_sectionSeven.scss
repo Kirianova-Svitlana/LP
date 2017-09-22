@@ -43,6 +43,8 @@
             display: flex;
             justify-content: center;
             padding-top: 3%;
+
+        }
             button {
                 height: 50px;
                 width: 300px;
@@ -55,6 +57,10 @@
                 outline: none;
                 font-family: Roboto;
                 border-radius: 3px;
+                a{
+                    text-decoration: none;
+                    color: $white;
+                }
                 &:hover{
                     opacity: 0.8;
                 }
@@ -62,7 +68,6 @@
                     opacity: 0.8;
                 }
             }
-        }
         .logo-coloring {
             margin-top: 137px;
             margin-bottom: 57px;
@@ -85,10 +90,18 @@
                 border-right: 1px solid $text-color-light-grey;
                 padding-right: 20px;
                 padding-left: 20px;
+                cursor: pointer;
                 &:last-child {
                     border: none;
                 }
-                &:hover{
+                &:hover {
+                    color: $text-color-light-blue;
+                }
+                a {
+                    text-decoration: none;
+                    color: $text-color-light-grey;
+                }
+                a:hover {
                     color: $text-color-light-blue;
                 }
             }
@@ -116,3 +129,4 @@
         z-index: 0;
     }
 }
+

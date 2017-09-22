@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);* {
+@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);* {
   box-sizing: border-box; }
 
 .header {
@@ -419,7 +419,8 @@
     background-repeat: no-repeat;
     background-size: 1090px;
     background-position: top;
-    margin-top: 3%; }
+    margin-top: 3%;
+    height: 580px; }
   .section-five .section-five-wrapper .date {
     text-align: end;
     font-size: 16px;
@@ -604,22 +605,25 @@
     display: flex;
     justify-content: center;
     padding-top: 3%; }
-    .section-seven .section-seven-wrapper .button-more-info button {
-      height: 50px;
-      width: 300px;
-      background-color: #ffc900;
-      color: #fff;
-      border: none;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 1.85;
-      outline: none;
-      font-family: Roboto;
-      border-radius: 3px; }
-      .section-seven .section-seven-wrapper .button-more-info button:hover {
-        opacity: 0.8; }
-      .section-seven .section-seven-wrapper .button-more-info button:active {
-        opacity: 0.8; }
+  .section-seven .section-seven-wrapper button {
+    height: 50px;
+    width: 300px;
+    background-color: #ffc900;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.85;
+    outline: none;
+    font-family: Roboto;
+    border-radius: 3px; }
+    .section-seven .section-seven-wrapper button a {
+      text-decoration: none;
+      color: #fff; }
+    .section-seven .section-seven-wrapper button:hover {
+      opacity: 0.8; }
+    .section-seven .section-seven-wrapper button:active {
+      opacity: 0.8; }
   .section-seven .section-seven-wrapper .logo-coloring {
     margin-top: 137px;
     margin-bottom: 57px;
@@ -640,10 +644,16 @@
     .section-seven .section-seven-wrapper .menu .menu-item {
       border-right: 1px solid #939598;
       padding-right: 20px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      cursor: pointer; }
       .section-seven .section-seven-wrapper .menu .menu-item:last-child {
         border: none; }
       .section-seven .section-seven-wrapper .menu .menu-item:hover {
+        color: #6ad0f1; }
+      .section-seven .section-seven-wrapper .menu .menu-item a {
+        text-decoration: none;
+        color: #939598; }
+      .section-seven .section-seven-wrapper .menu .menu-item a:hover {
         color: #6ad0f1; }
   .section-seven .section-seven-wrapper .slesh {
     background-size: 34%;
